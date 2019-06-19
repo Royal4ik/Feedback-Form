@@ -1,6 +1,5 @@
-# {{ name }}
+Форма обратной связи
 
-> {{ description }}
 
 ## Build Setup
 
