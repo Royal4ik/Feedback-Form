@@ -21,6 +21,30 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  modules: [
+    // Doc: https://axios.nuxtjs.org/usage
+    '@nuxtjs/axios',
+    'bootstrap-vue/nuxt',
+  ],
+
+  bootstrapVue: {
+    components: [
+      'BForm',
+      'BFormGroup',
+      'BFormCheckbox',
+      'BFormInput',
+      'BFormValidFeedback',
+      'BFormInvalidFeedback',
+    ]
+  },
+  /*
+   ** Axios module configuration
+   */
+  axios: {
+    // See https://github.com/nuxt-community/axios-module#options
+  },
+
   /*
   ** Build configuration
   */
